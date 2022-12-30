@@ -1,0 +1,29 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #22150e;
+}
+
+.logoLink {
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.logo {
+  height: 18px;
+  width: 115px;
+}
+
+.basketLink,
+.restaurantsLink,
+.allMenuLink {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+
+  margin-right: 30px;
+}
